@@ -8,7 +8,6 @@ import time
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
-from playsound import playsound
 
 # Initialize speech engine based on the platform
 def init_speech_engine():
